@@ -1,3 +1,0 @@
-git reset <HEAD> <file>: to reset the HEAD and stage to the appointed <HEAD> version
-git restore <file>: to reset the working derectory as the same as that on stage
-git checkout -- <file>: to reset the working derectory as the same as that on stage

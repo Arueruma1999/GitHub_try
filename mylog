@@ -1,0 +1,19 @@
+call figure1_CloseRequestFcn
+start to handle Serial
+gDemoFlag
+     0
+call OperateFile
+实时模式
+警告: The BytesAvailableFcn is being disabled. To enable the callback property
+either connect to the hardware with FOPEN or set the BytesAvailableFcn property.
+
+> In timer/start (line 33)
+  In ECG>OperateTimer (line 591)
+  In ECG>pushbutton_sample_Callback (line 539)
+  In gui_mainfcn (line 95)
+  In ECG (line 42)
+  In matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)ECG('pushbutton_sample_Callback',hObject,eventdata,guidata(hObject))
+  In pause (line 20)
+  In waitforallfiguresclosed (line 12)
+call ReleaseAll
+call OperateFile
